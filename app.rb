@@ -42,6 +42,8 @@ get '/calc' do
 end
 
 post '/calculate' do
+	#puts "params in calculate is #{params}"
+	#'params in calculate is {"val_1"=>"2", "val_2"=>"3", "add"=>"add"}'
 	session[:val_1] = params[:val_1]
 	session[:val_2] = params[:val_2]
 	case params[:operation]
@@ -55,7 +57,6 @@ post '/calculate' do
 		session[:operation] = "/"
 	end
 	session[:result] = work(params[:operation],params[:val_1],params[:val_2])
+	p "result is #{session[:result]}"
 	redirect '/calc'
-
-
 end

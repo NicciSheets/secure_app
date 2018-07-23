@@ -1,15 +1,22 @@
-<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
 
 <form method="post" action="calculate">
 	<input type="number" name="val_1" placeholder="First Number" required autofocus>
 	<input type="number" name="val_2" placeholder="Second Number" required>
+	<hr>
 	<label for="add">Add</label>
-	<input type="radio" name="add" id="add" value="add">
+	<input type="radio" name="operation" id="add" value="add">
 	<label for="subtract">Subtract</label>
-	<input type="radio" name="subtract" id="subtract" value="subtract">
+	<input type="radio" name="operation" id="subtract" value="subtract">
 	<label for="multiply">Multiply</label>
-	<input type="radio" name="multiply" id="multiply" value="multiply">
+	<input type="radio" name="operation" id="multiply" value="multiply">
 	<label for="divide">Divide</label>
-	<input type="radio" name="divide" id="divide" value="divide">
+	<input type="radio" name="operation" id="divide" value="divide">
 	<button class="button">Submit</button>
 </form>
+
+<!-- <p><%=result%></p>
+ -->
+
+ <%=result%> 
+

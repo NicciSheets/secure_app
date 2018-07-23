@@ -1,6 +1,6 @@
 body
 {
-  background-color: darkslategrey;
+  background-color: white;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.2rem;
 }
@@ -14,7 +14,7 @@ table
 }
 
 .btn {
-  background-color: #4CAF50;
+  background-color: white;
   border: none;
   color: white;
   padding: 0.4rem 1.1rem;
@@ -30,7 +30,7 @@ table
 .title
 {
   font-family: 'Anton', sans-serif;
-  color: darkkhaki;
+  color: black;
   font-size: 3rem;
 }
 
