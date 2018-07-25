@@ -1,24 +1,26 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 
 <form method="post" action="calculate">
-	<input type="number" step="0.01" name="val_1" placeholder=			"First Number" required autofocus>
-	<input type="number" step="0.01" name="val_2" placeholder=			"Second Number" required> <!--step allows you to input 			floats in the number box...0.01 means it allows numbers 		with up to 2 decimal points -->
-	<div class="operation_buttons">
-		<label for="add">Add</label>
-			<input type="radio" name="operation" id="add" value="add">
-		<label for="subtract">Subtract</label>
-			<input type="radio" name="operation" id="subtract" value="subtract">
-		<label for="multiply">Multiply</label>
-			<input type="radio" name="operation" id="multiply" value="multiply">
-		<label for="divide">Divide</label>
-			<input type="radio" name="operation" id="divide" value="divide">
-	</div>
-	<button class="button">Submit</button>
-	<div class="result_box">
-		<%=val_1%>
-		<%=operation%>
-		<%=val_2%>
-		<%=result%> 
+	<div class="main_card">
+		<input type="number" step="0.01" name="val_1" placeholder=			"First Number" required autofocus>
+		<input type="number" step="0.01" name="val_2" placeholder=			"Second Number" required> <!--step allows you to input 			floats in the number box...0.01 means it allows numbers 		with up to 2 decimal points -->
+		<div class="operation_buttons">
+			<label for="add">Add</label>
+				<input type="radio" name="operation" id="add" value="add">
+			<label for="subtract">Subtract</label>
+				<input type="radio" name="operation" id="subtract" value="subtract">
+			<label for="multiply">Multiply</label>
+				<input type="radio" name="operation" id="multiply" value="multiply">
+			<label for="divide">Divide</label>
+				<input type="radio" name="operation" id="divide" value="divide">
+		</div>
+		<button class="button">Submit</button>
+		<div class="result_box">
+			<%=val_1%>
+			<%=operation%>
+			<%=val_2%>
+			<%=result%> 
+		</div>
 	</div>
 </form>
 
