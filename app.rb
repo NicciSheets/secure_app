@@ -20,15 +20,26 @@ post '/log' do
 		count += 1
 	end
 		unless user_arr.include?(username) 
-			"Invalid username or password."
+			redirect '/invalid_page'
 			
 		end
 		unless pass_arr.include?(password)
-			"Invalid username or password."
+			redirect '/invalid_page'
 		 end
-		"Invalid username or password."
+		redirect '/invalid_page'
 end
 
+get '/invalid_page' do
+	erb :invalid_page
+end
+
+post '/invalid_entry' do
+  redirect '/log'
+end 
+
+get'/log' do
+	erb :login
+end
 
 get '/calc' do
 	puts "params in calc is #{params}"
