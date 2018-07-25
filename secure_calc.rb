@@ -25,10 +25,8 @@ def work(operator, n1, n2)
 		else 
 			result = result.round(2)
 		end
-
 	result = " = #{result}"
-
 end
 
 
-p work("divide", 20, 6)
+# p work("divide", 20, 6)
