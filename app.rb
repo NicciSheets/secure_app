@@ -20,14 +20,13 @@ post '/log' do
 		count += 1
 	end
 		unless user_arr.include?(username) 
-			"invalid user name or password"
-			erb :login
+			"Invalid username or password."
+			
 		end
 		unless pass_arr.include?(password)
-			"invalid user name or password"
-			erb :login
-		end
-		"invalid user name or password"
+			"Invalid username or password."
+		 end
+		"Invalid username or password."
 end
 
 
@@ -36,7 +35,7 @@ get '/calc' do
 	val_1 = session[:val_1] || ""
 	val_2 = session[:val_2] || ""
 	operation = session[:operation] || ""
-	result = session[:result] || false
+	result = session[:result]
   erb :calc, locals:{result: result, val_1: val_1, val_2: val_2, operation: operation}
 
 end
