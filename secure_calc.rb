@@ -20,8 +20,8 @@ def work(operator, n1, n2)
 	else
 		result = result.round(2)
 	end
-	result
+	" = #{result}"
 end
 
 
-#p work("add", 2.3, 3)
+p work("add", 2.3, 3)
