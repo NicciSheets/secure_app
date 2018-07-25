@@ -20,7 +20,8 @@ footer {
 }
 
 body {
-		background-image: url("/img/golden-ratio-math.gif");
+		background-image: url(/img/triangles.jpg);
+		background-size: cover;
     font-family: "Tahoma", Geneva, sans-serif;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 #subtract {
-    	border: 0;
+    	border: 0;n
     height: 18px;
     width: 100%;
 }
