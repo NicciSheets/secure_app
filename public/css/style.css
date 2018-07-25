@@ -1,5 +1,5 @@
 header {
-		background-color: white;
+		background-color: #fffffff2;
     color: #005d9a;
     height: 75px;
     text-shadow: 4px 1px 5px #000000bd;
@@ -56,7 +56,7 @@ body {
 
 .result_box {    
 		font-size: 55px;
-    background-color: white;
+    background-color: #fffffff2;
     text-shadow: 1px 1px 2px #000000bd;
     padding-left: 15px;
     padding-right: 15px;
