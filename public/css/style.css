@@ -1,11 +1,13 @@
 header {
-		background-color: #fffffff2;
-    color: #005d9a;
-    height: 75px;
-    text-shadow: 4px 1px 5px #000000bd;
-    font-size: 55px;
+		    width: min-content;
+    height: 75%;
+    height: fit-content;
+    text-shadow: 2px 1px 4px #e3ebf1;
+    font-size: 69px;
     letter-spacing: 4px;
     margin: auto;
+    color: #bf2d91f7;
+    font-weight: bold;
 }
 
 footer {
@@ -26,7 +28,7 @@ body {
 }
 
 .operation_buttons {
-	color: #005d9a;
+	color: #d40b6fbf;
 	font-size: 24px;
 }
 
@@ -57,25 +59,38 @@ body {
 .result_box {    
 		font-size: 55px;
     background-color: #fffffff2;
-    text-shadow: 1px 1px 2px #000000bd;
+    text-shadow: 1px 1px 2px #12558a;
     padding-left: 15px;
     padding-right: 15px;
-    color: #005d9a;
+    color: #d40b6fbf;
 }
 
 .main_card {
-	    background: white;
-    margin-top: 50px;
+	    background: #fffffff2;
+    margin-top: 20px;
     width: 40%;
     padding: 20px;
 }
 
 .button {
 		    text-align: center;
-    height: auto;
+    height: 30px;
     margin: 14px;
     width: max-content;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
+    font-size: 18px;
 }
+
+input {
+	    height: 40px;
+    width: 255px;
+    margin: auto;
+}
+
+.invalid {
+	color: #d40b6fbf;
+	font-size: 30px
+}
+
