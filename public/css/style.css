@@ -69,3 +69,13 @@ body {
     width: 40%;
     padding: 20px;
 }
+
+.button {
+		    text-align: center;
+    height: auto;
+    margin: 14px;
+    width: max-content;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
