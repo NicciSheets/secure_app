@@ -24,4 +24,4 @@ def work(operator, n1, n2)
 end
 
 
-p work("add", 2.3, 3)
+#work("add", 2.3, 3)
