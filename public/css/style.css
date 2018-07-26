@@ -2,8 +2,8 @@ header {
 		    width: min-content;
     height: 75%;
     height: fit-content;
-    text-shadow: 2px 1px 4px #e3ebf1;
-    font-size: 69px;
+    text-shadow: 1px 1px 4px white;
+    font-size: 70px;
     letter-spacing: 4px;
     margin: auto;
     color: #bf2d91f7;
@@ -28,41 +28,21 @@ body {
 }
 
 .operation_buttons {
-	color: #d40b6fbf;
-	font-size: 24px;
-}
-
-#add {
-	    border: 0;
-    height: 18px;
+	color: #bf2d91f7;
+    font-size: 24px;
+    display: flex;
+    border: 0;
+    height: 8px;
     width: 100%;
-}
-
-#subtract {
-    	border: 0;
-    height: 18px;
-    width: 100%;
-}
-
-#multiply {
-	    border: 0;
-    height: 18px;
-    width: 100%;
-}
-
-#divide {
-	    border: 0;
-    height: 18px;
-    width: 100%;
+    margin: 20px;
 }
 
 .result_box {    
 		font-size: 55px;
-    background-color: #fffffff2;
     text-shadow: 1px 1px 2px #12558a;
     padding-left: 15px;
     padding-right: 15px;
-    color: #d40b6fbf;
+    color: #199ec7f7;
 }
 
 .main_card {
@@ -70,6 +50,7 @@ body {
     margin-top: 20px;
     width: 40%;
     padding: 20px;
+    border-style: groove;
 }
 
 .button {
@@ -80,17 +61,22 @@ body {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    font-size: 18px;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 input {
 	    height: 40px;
     width: 255px;
     margin: auto;
+    border-style: groove;
+    font-size: 24px;
 }
 
 .invalid {
-	color: #d40b6fbf;
-	font-size: 30px
+	color: white;
+   	font-size: 30px;
 }
 
